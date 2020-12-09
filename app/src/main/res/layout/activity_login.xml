@@ -8,4 +8,8 @@
         tools:context=".LoginActivity"
         android:background="@drawable/back1">
 
+    <include
+            android:layout_margin="70dp"
+            layout="@layout/custom_app_name"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
