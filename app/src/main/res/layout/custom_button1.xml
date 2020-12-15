@@ -3,6 +3,9 @@
 
     <Button
             android:text="Test입니당"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             />

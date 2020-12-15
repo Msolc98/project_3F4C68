@@ -10,12 +10,19 @@
 
     <include
             android:id="si_app_name_textview"
-            layout="@layout/custom_app_name"/>
-
-    <TextView
-            android:text="아이디"
-            android:layout_width="wrap_content"
+            layout="@layout/custom_app_name"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toBottomOf="@+id/si_app"/>
+            android:layout_marginTop="150dp"/>
+
+
+
+    <include
+            android:id="si_button1_login_button"
+            layout="@layout/custom_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
