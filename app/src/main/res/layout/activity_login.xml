@@ -9,20 +9,33 @@
         android:background="@drawable/back1">
 
     <include
-            android:id="si_app_name_textview"
+            android:id="@+id/si_app_name_textview"
             layout="@layout/custom_app_name"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="150dp"/>
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="100dp"/>
 
 
 
     <include
-            android:id="si_button1_login_button"
+            android:id="@+id/si_button1_login_button"
             layout="@layout/custom_button1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="300dp"
+            app:layout_constraintTop_toBottomOf="@id/si_app_name_textview"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginLeft="100dp"
             />
+
+    <Button
+            android:text="hi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/si_button1_login_button"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
