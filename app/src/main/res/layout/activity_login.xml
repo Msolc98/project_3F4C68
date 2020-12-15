@@ -8,34 +8,32 @@
         tools:context=".LoginActivity"
         android:background="@drawable/back1">
 
-    <include
-            android:id="@+id/si_app_name_textview"
-            layout="@layout/custom_app_name"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintLeft_toLeftOf="parent"
-            android:layout_marginLeft="100dp"/>
+    <!--<include-->
+            <!--android:id="@+id/si_app_name_textview"-->
+            <!--layout="@layout/custom_app_name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--android:layout_marginLeft="100dp"/>-->
 
 
 
-    <include
-            android:id="@+id/si_button1_login_button"
-            layout="@layout/custom_button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/si_app_name_textview"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginLeft="100dp"
-            />
+    <!--<include-->
+            <!--android:id="@+id/si_button1_login_button"-->
+            <!--layout="@layout/custom_button1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/si_app_name_textview"-->
+            <!--app:layout_constraintLeft_toLeftOf="parent"-->
+            <!--/>-->
 
     <Button
-            android:text="hi"
+            android:id="@+id/testbutton1"
+            android:text="one"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toBottomOf="@id/si_button1_login_button"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"/>
+            app:layout_constraintRight_toLeftOf="parent"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
